@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registrati</title>
+</head>
+<body>
+	<h1>Form di registrazione</h1>
+	<form action="http://localhost:8080/Tprogetto/Registrati" method="post">
+       
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" required>
+
+        <label for="luogoNascita">Luogo di Nascita:</label>
+        <input type="text" id="luogoNascita" name="luogoNascita" required>
+
+        <label for="provincia">Provincia:</label>
+        <input type="text" id="provincia" name="provincia" required>
+
+        <label for="dataNascita">Data di Nascita:</label>
+        <input type="date" id="dataNascita" name="dataNascita" required>
+
+        <label for="codiceFiscale">Codice Fiscale:</label>
+        <input type="text" id="codiceFiscale" name="codiceFiscale" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="comeTrovato">Come ci hai trovato:</label>
+        <select id="comeTrovato" name="comeTrovato" required>
+            <option value="Facebook">Facebook</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="Link web">Link web</option>
+            <option value="Twitch">Twitch</option>
+            <option value="Discord">Discord</option>
+            <option value="Twitter">Twitter</option>
+        </select>
+
+        <button type="submit">Registrati</button>
+    </form>
+	
+</body>
+</html>
